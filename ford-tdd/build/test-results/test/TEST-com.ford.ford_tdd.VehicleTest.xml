@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.ford.ford_tdd.VehicleTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-10-24T02:00:12.865Z" hostname="MGC1W4HQFPX6" time="0.008">
-  <properties/>
-  <testcase name="test()" classname="com.ford.ford_tdd.VehicleTest" time="0.008"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
