@@ -18,14 +18,29 @@ public class Vehicle {
     Clean up implementation and test code once passing (Refactor)
 
     Write implementation and test cases for the following operations:
-    - Check if vehicle is empty
     - Check the number of passengers currently in the vehicle
     - Add passengers to the vehicle
     - Remove passengers from teh vehicle
-    - Check for a specific passenger in the vehicle and return the index (seat) they are located in
+    - Get seat/index of passenger by name
+    - Get name of passenger in specified seat/index
     * */
 
-    private String[] passengers;
+    private final String[] passengers;
     private int passengerCount;
-    private static final int MAX_CAPACITY = 5;
+    private static final int MAX_CAPACITY = 5; // Define the maximum capacity
+
+    public Vehicle() {
+        this.passengers = new String[MAX_CAPACITY];
+        this.passengerCount = 0;
+    }
+
+    public void addPassenger() {}
+
+    public void removePassenger() {}
+
+    public void getPassengerByIndex() {}
+
+    public void findPassenger() {}
+
+    public void getPassengerCount() {}
 }
