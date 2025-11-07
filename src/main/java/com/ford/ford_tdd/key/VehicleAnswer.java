@@ -66,7 +66,6 @@ public class VehicleAnswer {
         if (index >= 0 && index < passengerCount) {
             return passengers[index];
         } else {
-            System.out.println("Invalid index: " + index + ". Current passenger count: " + passengerCount);
             return null;
         }
     }
